@@ -2,12 +2,23 @@ body {
   font-family: "Josefin Sans", sans-serif;
   color: white;
   background: linear-gradient(to bottom right, red, palevioletred);
-  background
+}
+
+.row {
+  padding-right: 0px;
+  margin-right: 0px;
 }
 
 .top-image {
   background-color: white;
   margin: 0 auto;
+  float: left;
+  padding: 0;
+}
+
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 .navbar-default {
@@ -23,12 +34,6 @@ body {
 .navbar-default a.disabled {
   color: gray;
   pointer-events: none;
-}
-
-.container {
-  margin-top: 40px;
-  margin-bottom: 80px;
-
 }
 
 h1 {

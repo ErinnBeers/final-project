@@ -4,14 +4,21 @@ body {
   background: linear-gradient(to bottom right, red, palevioletred);
 }
 
-.container-fluid {
+.row {
   padding-right: 0px;
-  padding-left: 0px;
+  margin-right: 0px;
 }
 
 .top-image {
   background-color: white;
   margin: 0 auto;
+  float: left;
+  padding: 0;
+}
+
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 .navbar-default {
@@ -49,21 +56,17 @@ h4 {
   color: white;
   padding: 5px;
   font-size: 30px;
-  border-radius: 5px;
 }
 
 .panel-body {
   padding: 10px;
   background-color: lightpink;
   color: #2e2e2e;
-  border-radius: 5px;
   font-family: 'Roboto', sans-serif;
 }
 
 .panel {
-  border: 1px solid white;
   margin: 30px 10px 30px 10px;
-  border-radius: 5px;
 }
 
 .party-rules {
@@ -87,11 +90,15 @@ h4 {
   padding: 40px 65px 40px 65px;
 }
 
+.pricing h2 {
+  margin: 20px;
+}
+
 .pricing h4 {
-  margin-bottom: 40px;
+  text-align: center;
 }
 
 .pricing p {
-  margin-right: 65px;
-  margin-left: 65px;
+  margin: 20px;
+  font-size: 20px;
 }
