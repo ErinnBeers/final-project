@@ -1,0 +1,49 @@
+body {
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  background: linear-gradient(to bottom right, red, palevioletred);
+  background
+}
+
+.top-image {
+  background-color: white;
+  margin: 0 auto;
+}
+
+.navbar-default {
+  background-color: #2e2e2e;
+  text-transform: uppercase;
+}
+
+.navbar-default a {
+  color: white;
+  margin: 0 65px 0 65px;
+}
+
+.navbar-default a.disabled {
+  color: gray;
+  pointer-events: none;
+}
+
+.container {
+  margin-top: 40px;
+  margin-bottom: 80px;
+
+}
+
+h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.bottom-image img {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+}

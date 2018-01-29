@@ -1,0 +1,132 @@
+body {
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  background: linear-gradient(to bottom right, red, palevioletred);
+}
+
+/* img {
+  max-width: 100%;
+} */
+
+.top-image {
+  background-color: white;
+  margin: 0 auto;
+}
+
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.navbar-default {
+  background-color: #2e2e2e;
+  text-transform: uppercase;
+}
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+.navbar-default a {
+  color: white;
+  margin: 0 65px 0 65px;
+}
+
+/* .navbar-default a.disabled {
+  color: gray;
+  pointer-events: none;
+} */
+
+.container {
+  margin: 0 auto;
+}
+
+.top-content {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 20px;
+  padding: 15px;
+}
+
+.section-1 img {
+  max-width: 75%;
+  margin: 90px 20px;
+}
+
+.section-1 img:hover {
+  opacity: .80;
+}
+
+.newsletter-text {
+  color: #2e2e2e;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.input-group {
+    margin: 5px auto;
+    max-width: 100%;
+    border: none;
+  }
+
+.input-group button {
+  margin: 0px;
+}
+
+
+#email {
+  background-color: white;
+  width: 75%;
+}
+
+.big-buttons {
+  background-color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.big-buttons img {
+  width: 75%;
+  display: block;
+  margin: 20px auto;
+  box-shadow: 5px 5px 30px dimgrey;
+}
+
+.big-buttons img:hover {
+  opacity: .80;
+}
+
+.section-3 {
+  background-color: #2e2e2e;
+  margin-bottom: 40px;
+}
+
+.announcements {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #2e2e2e;
+  padding: 50px 10px;
+}
+
+.announcements p {
+  color: #2e2e2e;
+}
+
+.card {
+  margin-top: 60px;
+  padding: 20px;
+}
+
+
+h4 {
+  color: #2e2e2e;
+}
+
+.btn {
+  background-color: hotpink;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #2e2e2e;
+}

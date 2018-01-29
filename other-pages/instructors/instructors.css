@@ -1,0 +1,69 @@
+body {
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  background: linear-gradient(to bottom right, red, palevioletred);
+}
+
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.top-image {
+  background-color: white;
+  margin: 0 auto;
+}
+
+.navbar-default {
+  background-color: #2e2e2e;
+  text-transform: uppercase;
+}
+
+.navbar-default a {
+  color: white;
+  margin: 0 65px 0 65px;
+}
+
+.navbar-default a.disabled {
+  color: gray;
+  pointer-events: none;
+}
+
+.container {
+  margin: 40px auto;
+  text-align: center;
+}
+
+.thumbnail img:hover {
+  opacity: .80;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.thumbnail {
+  margin: 30px;
+}
+
+.caption {
+  color: white;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.caption h4 {
+  font-family: 'Pacifico', cursive;
+}
+
+.caption:hover {
+  color: #2e2e2e;
+}
+
+.thumbnail img {
+  max-width: 100%;
+}
