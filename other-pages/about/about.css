@@ -48,7 +48,7 @@ h1 {
   padding: 0px;
 }
 
-.container-fluid {
-  padding-right: 0px;
-  padding-left: 0px;
+.main-body  {
+  padding-top: 40px;
+  padding-bottom: 60px;
 }
