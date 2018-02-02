@@ -21,18 +21,37 @@ body {
   padding-left: 0px;
 }
 
+.dropdown-menu {
+  background-color: #2e2e2e;
+  color: #2e2e2e;
+}
+
+.navbar-toggler-icon {
+  background-color: white;
+}
+
+.navbar-nav .dropdown-menu {
+  position: absolute;
+}
+
 .navbar-default {
   background-color: #2e2e2e;
   text-transform: uppercase;
-}
-
-.navbar-nav {
-    flex-direction: row;
+  padding: 15px 15px 15px 15px;
+  color: white;
 }
 
 .navbar-default a {
   color: white;
-  margin: 0 65px 0 65px;
+}
+
+.collapse.show .navbar-nav {
+  display: block;
+  flex-direction: column;
+}
+
+.navbar-nav {
+  flex-direction: row;
 }
 
 .navbar-default a.disabled {
@@ -53,7 +72,7 @@ body {
 
 .section-1 img {
   max-width: 75%;
-  margin: 90px 20px;
+  vertical-align: middle;
 }
 
 .section-1 img:hover {
@@ -76,10 +95,9 @@ body {
   margin: 0px;
 }
 
-
 #email {
   background-color: white;
-  width: 75%;
+  width: 50%;
 }
 
 .big-buttons {
@@ -119,7 +137,6 @@ body {
   margin-top: 60px;
   padding: 20px;
 }
-
 
 h4 {
   color: #2e2e2e;

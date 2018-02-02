@@ -2,6 +2,7 @@ body {
   font-family: "Josefin Sans", sans-serif;
   color: white;
   background: linear-gradient(to bottom right, red, palevioletred);
+  height: 1000px;
 }
 
 .row {
@@ -13,7 +14,7 @@ body {
   background-color: white;
   margin: 0 auto;
   float: left;
-  padding: 0px;
+  padding: 0;
 }
 
 .container-fluid {
@@ -24,6 +25,10 @@ body {
 .dropdown-menu {
   background-color: #2e2e2e;
   color: #2e2e2e;
+}
+
+.navbar-toggler-icon {
+  background-color: white;
 }
 
 .navbar-nav .dropdown-menu {
@@ -56,40 +61,10 @@ body {
 }
 
 .container {
-  margin: 40px auto;
+  margin: 0 auto;
+}
+
+h1 {
   text-align: center;
-}
-
-.thumbnail img:hover {
-  opacity: .80;
-}
-
-a {
-  color: white;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-.thumbnail {
-  margin: 30px;
-}
-
-.caption {
-  color: white;
-  margin-top: 10px;
-  padding: 10px;
-}
-
-.caption h4 {
-  font-family: 'Pacifico', cursive;
-}
-
-.caption:hover {
-  color: #2e2e2e;
-}
-
-.thumbnail img {
-  max-width: 100%;
+  margin: 100px;
 }
